@@ -1,15 +1,10 @@
-import Image from "next/image";
+import NewComponent from "./NewComponent";
 
 export default function Home() {
   return (
     <div>
       <h2>Blog Post</h2>
-      <Image
-        src="images/great-north-run.jpg"
-        width={800}
-        height={600}
-        alt="Post 1"
-      />
+      <NewComponent />
     </div>
   );
 }
